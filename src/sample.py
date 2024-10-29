@@ -4,8 +4,6 @@ This is a sample IDA plugin demonstrating a basic structure.
 
 import idaapi  # pylint: disable=import-error
 import idautils  # pylint: disable=import-error
-import idc  # pylint: disable=import-error
-
 
 class SamplePlugin(idaapi.plugin_t):
     """
